@@ -11,16 +11,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Shlok Garg</h3>
+          <h3>Designed and Developed by Garret Fernandez</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SG</h3>
+          <h3>Copyright © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/vngarg"
+                href="https://github.com/garretfernandezz"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
@@ -30,7 +30,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:sngargrsd@gmail.com"
+                href="mailto:garret0716@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/shlokgarg01/"
+                href="https://www.linkedin.com/in/garret-fernandez/"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "white" }}
@@ -48,16 +48,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://sgcodes.co.in/youtube"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "white" }}
-              >
-                <FaYoutube />
-              </a>
-            </li>
+           
           </ul>
         </Col>
       </Row>

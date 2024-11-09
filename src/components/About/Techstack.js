@@ -6,15 +6,13 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiRuby,
   DiGit,
+  DiJava
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiPostgresql,
-  SiMysql,
+
+  SiMysql
+    // Importing the Java icon from react-icons
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 
@@ -34,31 +32,17 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiRuby />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
       </Col>
     </Row>
   );

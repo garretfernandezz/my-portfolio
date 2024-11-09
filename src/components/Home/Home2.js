@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/mypic.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
@@ -16,35 +16,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a third year Computer Engineering Student at Symbiosis Institute of Technology
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in technologies like
               <i>
-                <b className="purple"> Javascript, Ruby and C++. </b>
+                <b className="purple"> HTML, CSS, Javascript, Java, C and DBMS. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new&nbsp;
+              My hobbies include&nbsp;
               <i>
-                <b className="purple">Web and Android based Technologies </b>{" "}
-                and also in areas related to{" "}
-                <b className="purple">Content Creation.</b>
+                <b className="purple">reading </b>
+                and{" "}
+                <b className="purple">travelling.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Libraries and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js, React Native and Next.js</b>
-              </i>
+              Seeking opportunities to apply my technical knowledge to contribute effectively to team success and company goals.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,7 +50,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/vngarg"
+                  href="https://github.com/garretfernandezz"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -72,7 +60,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:sngargrsd@gmail.com"
+                  href="mailto:garret0716@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -82,22 +70,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/shlokgarg01/"
+                  href="https://www.linkedin.com/in/garret-fernandez/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://sgcodes.co.in/youtube"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaYoutube />
                 </a>
               </li>
             </ul>
@@ -107,4 +85,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

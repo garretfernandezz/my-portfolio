@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+         
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://bit.ly/Shlok-Resume"
+                href="https://drive.google.com/drive/folders/1ohgHIF0UUf3GsWMsz6KQuTa5M-sp8EAR?usp=sharing"
                 target="_blank"
                 className="fork-btn-inner"
               >
@@ -102,7 +102,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/vngarg"
+                href="https://github.com/garretfernandezz"
                 target="_blank"
                 className="fork-btn-inner"
               >
