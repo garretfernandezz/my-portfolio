@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -77,7 +77,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Projects and Designs
               </Nav.Link>
             </Nav.Item>
 
@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://drive.google.com/drive/folders/1ohgHIF0UUf3GsWMsz6KQuTa5M-sp8EAR?usp=sharing"
+                href="https://drive.google.com/file/d/1ty62Cs6BPIStFU7m6Knp1MortbmxS7Kl/view"
                 target="_blank"
                 className="fork-btn-inner"
               >
